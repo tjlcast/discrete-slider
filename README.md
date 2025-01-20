@@ -20,10 +20,18 @@ st.markdown("You've clicked %s times!" % int(num_clicks))
 
 ## Development instructions
 
+### Install Frontend
 ``` sh
 cd discrete_slider/frontend
 # npm install @material-ui/core
 npm install
+npm run start
+```
+
+### Run Python
+```sh
+pip install -r requirements.txt
+streamlit run .\discrete_slider\example.py
 ```
 
 > http://material-ui.com/components/slider/
